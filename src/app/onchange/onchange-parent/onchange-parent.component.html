@@ -1,0 +1,9 @@
+<h1>OnChange</h1>
+<span>Hero</span>: 
+<input type="text" [(ngModel)]="hero.name">
+<br>
+<br>
+<span>Power</span>: 
+<input type="text" [(ngModel)]="power">
+<br>
+<app-onchange-child [hero]="hero" [power]="power"></app-onchange-child>

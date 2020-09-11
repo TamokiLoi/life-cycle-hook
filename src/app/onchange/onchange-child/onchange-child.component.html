@@ -1,0 +1,6 @@
+<p>Hero: {{hero.name}}</p>
+<p>Power: {{power}}</p>
+<button (click)="logs = []">Clear Log</button>
+<div *ngFor="let item of logs">
+    <p>{{item}}</p>
+</div>

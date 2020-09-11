@@ -1,0 +1,12 @@
+<p>Name from parent: {{data.name}}</p>
+<div *ngFor="let item of array">
+    <p>Item of Array from parent: {{item.name}}</p>
+</div>
+<div *ngFor="let item of logs">
+    <p>{{item}}</p>
+</div>
+<button (click)="logs = []">Clear Logs</button>
+<br>
+<br>
+{{log()}}
+
